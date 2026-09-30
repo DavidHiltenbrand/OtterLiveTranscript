@@ -1,0 +1,15 @@
+{
+  "name": "otter-live-deltas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 41721 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test src/*.test.js"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
