@@ -149,15 +149,7 @@ function updateIdHint() {
   idHint.replaceChildren('Conversation id ', h('code', { text: parsed.id }))
 }
 
-const EMPTY_MARK = `<svg viewBox="0 0 32 32" aria-hidden="true" width="72" height="72">
-  <rect width="32" height="32" rx="10" fill="#144fff"/>
-  <circle cx="11" cy="12" r="2.3" fill="#ffffff"/>
-  <circle cx="21" cy="12" r="2.3" fill="#ffffff"/>
-  <ellipse cx="16" cy="18.5" rx="8.2" ry="7.2" fill="#ffffff"/>
-  <circle cx="13.1" cy="17.6" r="1.15" fill="#041d34"/>
-  <circle cx="18.9" cy="17.6" r="1.15" fill="#041d34"/>
-  <ellipse cx="16" cy="20.4" rx="1.45" ry="1.05" fill="#8a78f0"/>
-</svg>`
+const EMPTY_MARK = `<img class="empty__logo" src="/otter-logo.svg" alt="" width="168" height="113" />`
 
 function showEmpty() {
   const wrap = h('div', { class: 'empty', id: 'empty-state' })
