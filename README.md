@@ -1,6 +1,6 @@
 # Otter Live Deltas
 
-A small vanilla JavaScript app for watching an [Otter](https://otter.ai) conversation as it grows. Paste an API key and a meeting URL, and the page polls Otter every 15 seconds. Each response is cached. The next response is compared with that cache, and a card is added with only the new or corrected words.
+A simple web app for watching an [Otter](https://otter.ai) conversation live. Paste an API key and a meeting URL, and the page polls Otter every 15 seconds. Each response is cached. The next response is compared with that cache, and a card is added with only the new or corrected words.
 
 ## Run it
 
